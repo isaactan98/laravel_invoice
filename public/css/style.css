@@ -1,0 +1,306 @@
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-heading {
+    color: inherit;
+}
+
+.alert-link {
+    font-weight: 700;
+}
+
+.alert-dismissible {
+    padding-right: 3.85rem;
+}
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+.alert-primary {
+    color: #1b4b72;
+    background-color: #d6e9f8;
+    border-color: #c6e0f5;
+}
+.alert-primary hr {
+    border-top-color: #b0d4f1;
+}
+.alert-primary .alert-link {
+    color: #113049;
+}
+
+.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+.alert-secondary hr {
+    border-top-color: #c8cbcf;
+}
+.alert-secondary .alert-link {
+    color: #202326;
+}
+
+.alert-success {
+    color: #1d643b;
+    background-color: #d7f3e3;
+    border-color: #c7eed8;
+}
+.alert-success hr {
+    border-top-color: #b3e8ca;
+}
+.alert-success .alert-link {
+    color: #123c24;
+}
+
+.alert-info {
+    color: #385d7a;
+    background-color: #e2f0fb;
+    border-color: #d6e9f9;
+}
+.alert-info hr {
+    border-top-color: #c0ddf6;
+}
+.alert-info .alert-link {
+    color: #284257;
+}
+
+.alert-warning {
+    color: #857b26;
+    background-color: #fffbdb;
+    border-color: #fffacc;
+}
+.alert-warning hr {
+    border-top-color: #fff8b3;
+}
+.alert-warning .alert-link {
+    color: #5d561b;
+}
+
+.alert-danger {
+    color: #761b18;
+    background-color: #f9d6d5;
+    border-color: #f7c6c5;
+}
+.alert-danger hr {
+    border-top-color: #f4b0af;
+}
+.alert-danger .alert-link {
+    color: #4c110f;
+}
+
+.alert-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+.alert-light hr {
+    border-top-color: #ececf6;
+}
+.alert-light .alert-link {
+    color: #686868;
+}
+
+.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+.alert-dark hr {
+    border-top-color: #b9bbbe;
+}
+.alert-dark .alert-link {
+    color: #040505;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
+#invoice {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#billship,
+#company,
+#items {
+    width: 100%;
+    border-collapse: collapse;
+}
+#company td,
+#billship td,
+#items td,
+#items th {
+    padding: 15px;
+}
+#company,
+#billship {
+    margin-bottom: 30px;
+}
+#company img {
+    max-width: 150px;
+    height: auto;
+}
+#bigi {
+    font-size: 28px;
+    color: #ad132f;
+}
+#billship {
+    background: #b92d2d;
+    color: #fff;
+}
+#billship td {
+    width: 33%;
+}
+#items th {
+    background-color: transparent !important;
+}
+#items th {
+    text-align: left;
+    border-top: 2px solid #f6a5a5;
+    border-bottom: 2px solid #f6a5a5;
+}
+#items td {
+    border-bottom: 1px solid #f6a5a5;
+}
+.idesc {
+    color: #ca3f3f;
+}
+.ttl {
+    font-weight: 700;
+}
+.right {
+    text-align: right;
+}
+#notes {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 0.95em;
+    position: absolute;
+}
+
+.buttons {
+    margin-top: 30px;
+    width: 70%;
+    position: absolute;
+    float: right;
+    text-align: right;
+}
+
+@media print {
+    #hiderow {
+        visibility: hidden;
+    }
+    .delete {
+        visibility: hidden;
+    }
+    nav,
+    header {
+        display: none;
+    }
+    textarea {
+        border: none;
+    }
+    #button {
+        display: none;
+    }
+    .top-bar {
+        display: none;
+    }
+    .mobile-menu {
+        display: none;
+    }
+}
+
+#no {
+    display: none;
+}
+
+#totalTable {
+    clear: both;
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+#totalTable th {
+    background: #eee;
+}
+#totalTable textarea {
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+#totalTable tr.item-row td {
+    border: 0;
+    vertical-align: top;
+}
+#totalTable td.description {
+    width: 300px;
+}
+#totalTable td.item-name {
+    width: 175px;
+}
+#totalTable td.description textarea,
+#totalTable td.item-name textarea {
+    width: 100%;
+}
+#totalTable td.total-line {
+    border-right: 0;
+    text-align: right;
+    border: none;
+}
+#totalTable td.total-value {
+    border-left: 0;
+    padding: 10px;
+    border: none;
+}
+#totalTable td.total-value textarea {
+    height: 40px;
+    width: 100%;
+    background: 0 0;
+    border: none;
+}
+#totalTable td.balance {
+    background: #eee;
+}
+#totalTable td.blank {
+    border: 0;
+}
+
+#totalTable td.totalName {
+    width: 175px;
+}
+
+.invc textarea {
+    width: 100%;
+    height: 2.6rem;
+    background-color: #b92d2d;
+    color: #fff;
+}
+
+#customer-title {
+    height: 130px;
+    font-size: 1rem !important;
+}
+
+.delete {
+    position: absolute;
+    padding: 10px;
+    background-color: #b92d2d;
+    color: #eee;
+}
+
+#customer-title,
+.terms {
+    color: #000;
+}

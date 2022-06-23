@@ -1,0 +1,179 @@
+.lg\:pb-20 {
+    padding-bottom: 5rem;
+}
+
+.lg\:flex-row {
+    flex-direction: row;
+}
+
+.sm\:text-left {
+    text-align: left;
+}
+
+.sm\:pt-20 {
+    padding-top: 5 rem;
+}
+
+.sm\:px-20 {
+    padding-left: 5 rem;
+    padding-right: 5 rem;
+}
+
+.flex {
+    display: flex;
+}
+.text-theme-1 {
+    --text-opacity: 1;
+    color: #1c3faa;
+    color: rgba(28, 63, 170, var(--text-opacity));
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.lg\:text-right {
+    text-align: right;
+}
+
+.lg\:ml-auto {
+    margin-left: auto;
+}
+
+.lg\:mt-0 {
+    margin-top: 0;
+}
+.mt-20 {
+    margin-top: 5 rem;
+}
+.text-xl {
+    font-size: 1.25rem;
+}
+.font-medium {
+    font-weight: 500;
+}
+.mt-1 {
+    margin-top: 0.25 rem;
+}
+.lg\:flex-row {
+    flex-direction: row;
+}
+
+.sm\:text-left {
+    text-align: left;
+}
+
+.sm\:pb-20 {
+    padding-bottom: 5 rem;
+}
+
+.sm\:px-20 {
+    padding-left: 5 rem;
+    padding-right: 5 rem;
+}
+.text-center {
+    text-align: center;
+}
+.pb-10 {
+    padding-bottom: 2.5 rem;
+}
+.pt-10 {
+    padding-top: 2.5 rem;
+}
+.px-5 {
+    padding-left: 1.25 rem;
+    padding-right: 1.25 rem;
+}
+.flex-col {
+    flex-direction: column;
+}
+
+.border-b {
+    border-bottom-width: 1 px;
+}
+.lg\:text-right {
+    text-align: right;
+}
+
+.lg\:ml-auto {
+    margin-left: auto;
+}
+
+.lg\:mt-0 {
+    margin-top: 0;
+}
+.text-gray-600 {
+    --text-opacity: 1;
+    color: #718096;
+    color: rgba(113, 128, 150, var(--text-opacity));
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.mt-2 {
+    margin-top: 0.5 rem;
+}
+.text-lg {
+    font-size: 1.125rem;
+}
+.font-medium {
+    font-weight: 500;
+}
+.sm\:py-20 {
+    padding-top: 5 rem;
+    padding-bottom: 5 rem;
+}
+
+.sm\:px-16 {
+    padding-left: 4 rem;
+    padding-right: 4 rem;
+}
+.overflow-x-auto {
+    overflow-x: auto;
+}
+.table {
+    display: table;
+}
+
+.table {
+    width: 100%;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+}
+.table td {
+    padding-left: 1.25 rem;
+    padding-right: 1.25 rem;
+    padding-top: 0.75 rem;
+    padding-bottom: 0.75 rem;
+}
+
+.border-b {
+    border-bottom-width: 1 px;
+}
+.w-32 {
+    width: 8 rem;
+}
+.text-right {
+    text-align: right;
+}
+.font-medium {
+    font-weight: 500;
+}
+.sm\:pb-20 {
+    padding-bottom: 5 rem;
+}
+.sm\:px-20 {
+    padding-left: 5 rem;
+    padding-right: 5 rem;
+}
+.sm\:flex-row {
+    flex-direction: row;
+}
